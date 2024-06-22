@@ -37,8 +37,8 @@ const LoginScreen = (props) => {
                                 color={colors.white}
                             />
 
-                            <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_EXTRA_BOLD, fontSize: scaleFont(40) }}>NeoSport</Text>
-                            <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12), opacity: 0.5 }}>World's Leading Fantasy Sports App</Text>
+                            <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_EXTRA_BOLD, fontSize: scaleFont(40) }}>ScoreKings</Text>
+                            <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12), opacity: 0.5 }}>The Ultimate Hometown Fan Experience</Text>
                         </View>
 
                         <View style={{}}>
