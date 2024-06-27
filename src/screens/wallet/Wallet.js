@@ -89,7 +89,7 @@ const Wallet = (props) => {
 
                         </TouchableOpacity>
                         <TouchableOpacity style={{ width: scale(100), height: verticalScale(110), justifyContent: 'center', alignItems: 'center', backgroundColor: colors.white, borderRadius: verticalScale(6) }}>
-                            <Image source={require('../../assets/images/ruppeeIcon.jpeg')} style={{ width: scale(24), height: scale(24), }} />
+                            <Image source={require('../../assets/images/dollarIcon.png.webp')} style={{ width: scale(24), height: scale(24), }} />
                             <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(12) }}>{'\u0024'}1200</Text>
                             <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12), }}>Cash Bonus</Text>
 
