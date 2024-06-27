@@ -133,7 +133,7 @@ const Wallet = (props) => {
 
 
                 <TouchableOpacity onPress={() => { props.navigation.navigate('Refer') }} style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', }}>
-                    <FontAwesome name="rupee" color={colors.primary_blue} size={verticalScale(20)} style={{ marginLeft: scale(8) }} />
+                    <FontAwesome name="dollar" color={colors.primary_blue} size={verticalScale(20)} style={{ marginLeft: scale(8) }} />
                     <View style={{ flexDirection: 'row', borderBottomWidth: verticalScale(0.25), borderColor: colors.greyColour, width: scale(320), justifyContent: "space-between", alignItems: 'center', paddingHorizontal: scale(10), height: verticalScale(60), }}>
                         <Text style={{ color: colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>Earn Cash Bonus</Text>
                         <FontAwesome name="angle-right" color={colors.black} size={verticalScale(18)} />
