@@ -35,14 +35,14 @@ const WithdrawMoney = (props) => {
                             </TouchableOpacity>
                             <Text style={{ fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(18), color: colors.white, marginLeft: scale(50) }}>Withdraw Money</Text>
                         </View>
-                        <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(30), marginTop: verticalScale(20), textAlign: "center" }}>{'\u20B9'} 1900</Text>
+                        <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(30), marginTop: verticalScale(20), textAlign: "center" }}>{'\u0024'} 1900</Text>
                         <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_MEDIUM, fontSize: scaleFont(12), textAlign: "center" }}>Withdrawable Balance</Text>
                     </View>
                 </LinearGradient>
 
                 <TextInput
                     style={{ alignSelf: "center", width: scale(320), marginTop: verticalScale(20) }}
-                    label={"\u20B9 Enter amount to Withdraw"}
+                    label={"\u0024 Enter amount to Withdraw"}
                     activeUnderlineColor={colors.primary_blue}
                     value={amountValue}
                     onChangeText={(text) => setAmountValue(text)}

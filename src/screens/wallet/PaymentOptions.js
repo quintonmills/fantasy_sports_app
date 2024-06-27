@@ -49,7 +49,7 @@ const PaymentOptions = (props) => {
                     <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12) }}>
                         Amount to be added</Text>
                     <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12) }}>
-                        {'\u20B9'}{money}</Text>
+                        {'\u0024'}{money}</Text>
                 </View>
 
 
@@ -146,7 +146,7 @@ const PaymentOptions = (props) => {
                         <View style={{ alignSelf: 'center', alignItems: 'center', marginTop: verticalScale(10), paddingHorizontal: scale(25) }}>
                             <Text style={{ color: colors.text_primary, fontSize: scaleFont(20), fontFamily: constants.OPENSANS_FONT_BOLD, textAlign: 'center' }}>Hurray!</Text>
                             <Text style={{ color: colors.text_primary, fontSize: scaleFont(16), fontFamily: constants.OPENSANS_FONT_BOLD, textAlign: "center" }}>Payment Succesfull.</Text>
-                            <Text style={{ color: colors.green, fontSize: scaleFont(18), fontFamily: constants.OPENSANS_FONT_BOLD, textAlign: 'center', marginTop: verticalScale(10) }}>{'\u20B9'}{money} has been added to your Wallet!</Text>
+                            <Text style={{ color: colors.green, fontSize: scaleFont(18), fontFamily: constants.OPENSANS_FONT_BOLD, textAlign: 'center', marginTop: verticalScale(10) }}>{'\u0024'}{money} has been added to your Wallet!</Text>
                         </View>
                     </View>
 

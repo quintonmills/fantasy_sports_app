@@ -75,7 +75,7 @@ const Wallet = (props) => {
                     alignSelf: 'center',
                 }}>
                 <View style={{ marginTop: verticalScale(40), paddingHorizontal: scale(20), alignItems: 'center', justifyContent: 'center' }}>
-                    <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(40), marginTop: verticalScale(30) }}>{'\u20B9'} 5600</Text>
+                    <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(40), marginTop: verticalScale(30) }}>{'\u0024'} 5600</Text>
                     <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_MEDIUM, fontSize: scaleFont(12) }}>Total Wallet Balance</Text>
                     <TouchableOpacity activeOpacity={0.7} onPress={() => { props.navigation.navigate('AddMoney') }} style={{ width: scale(120), height: verticalScale(36), borderRadius: verticalScale(20), marginTop: verticalScale(10), backgroundColor: colors.white, justifyContent: 'center', alignItems: 'center', elevation: 1 }} >
                         <Text style={{ color: colors.primary_blue, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12) }} >Add Money</Text>
@@ -84,19 +84,19 @@ const Wallet = (props) => {
                     <View style={{ marginTop: verticalScale(20), flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', width: scale(340), alignSelf: 'center' }} >
                         <TouchableOpacity style={{ width: scale(100), height: verticalScale(110), justifyContent: 'center', alignItems: 'center', backgroundColor: colors.white, borderRadius: verticalScale(6) }}>
                             <FontAwesome name="bank" color={colors.green} size={verticalScale(20)} />
-                            <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(15) }}>{'\u20B9'}4000</Text>
+                            <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(15) }}>{'\u0024'}4000</Text>
                             <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12), }}>Deposited</Text>
 
                         </TouchableOpacity>
                         <TouchableOpacity style={{ width: scale(100), height: verticalScale(110), justifyContent: 'center', alignItems: 'center', backgroundColor: colors.white, borderRadius: verticalScale(6) }}>
-                            <Image source={require('../../assets/images/ruppeeIcon.jpeg')} style={{ width: scale(24), height: scale(24), }} />
-                            <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(12) }}>{'\u20B9'}1200</Text>
+                            <Image source={require('../../assets/images/dollarIcon.png.webp')} style={{ width: scale(24), height: scale(24), }} />
+                            <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(12) }}>{'\u0024'}1200</Text>
                             <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12), }}>Cash Bonus</Text>
 
                         </TouchableOpacity>
                         <TouchableOpacity style={{ width: scale(100), height: verticalScale(110), justifyContent: 'center', alignItems: 'center', backgroundColor: colors.white, borderRadius: verticalScale(6) }}>
                             <FontAwesome name="trophy" color={colors.primary_blue} size={verticalScale(20)} />
-                            <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(15) }}>{'\u20B9'}400</Text>
+                            <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_BOLD, fontSize: scaleFont(20), marginTop: verticalScale(15) }}>{'\u0024'}400</Text>
                             <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12), }}>Winnings</Text>
 
                         </TouchableOpacity>
@@ -133,7 +133,7 @@ const Wallet = (props) => {
 
 
                 <TouchableOpacity onPress={() => { props.navigation.navigate('Refer') }} style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', }}>
-                    <FontAwesome name="rupee" color={colors.primary_blue} size={verticalScale(20)} style={{ marginLeft: scale(8) }} />
+                    <FontAwesome name="dollar" color={colors.primary_blue} size={verticalScale(20)} style={{ marginLeft: scale(8) }} />
                     <View style={{ flexDirection: 'row', borderBottomWidth: verticalScale(0.25), borderColor: colors.greyColour, width: scale(320), justifyContent: "space-between", alignItems: 'center', paddingHorizontal: scale(10), height: verticalScale(60), }}>
                         <Text style={{ color: colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>Earn Cash Bonus</Text>
                         <FontAwesome name="angle-right" color={colors.black} size={verticalScale(18)} />

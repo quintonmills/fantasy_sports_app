@@ -81,7 +81,7 @@ const TransactionHistory = (props) => {
                                 <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
                                     <Text style={{ color: colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }} >{item.heading}</Text>
                                     <View style={{ flexDirection: "row" }}>
-                                        <Text style={{ color: item.incoming ? colors.green : colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }} >{item.incoming ? '+' : '-'} {'\u20B9'}{item.amount}</Text>
+                                        <Text style={{ color: item.incoming ? colors.green : colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }} >{item.incoming ? '+' : '-'} {'\u0024'}{item.amount}</Text>
                                     </View>
                                 </View>
                                 <Text style={{ color: colors.black, fontSize: scaleFont(10), fontFamily: constants.OPENSANS_FONT_MEDIUM }}>{item.dateTime}</Text>

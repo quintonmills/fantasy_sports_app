@@ -50,7 +50,7 @@ const AddMoney = (props) => {
                     <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12) }}>
                         Total available balance</Text>
                     <Text style={{ color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(12) }}>
-                        {'\u20B9'}106</Text>
+                        {'\u0024'}106</Text>
                 </View>
 
 
@@ -60,30 +60,30 @@ const AddMoney = (props) => {
                     Enter amount to add
                 </Text>
                 <Text style={{ alignSelf: 'center', color: colors.black, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(45), }}>
-                    {'\u20B9'}{money}
+                    {'\u0024'}{money}
                 </Text>
 
 
                 <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-evenly', width: scale(360), marginTop: verticalScale(30) }}>
                     <TouchableOpacity onPress={() => setmoney(500)} activeOpacity={0.7} style={{ backgroundColor: colors.white, justifyContent: 'center', alignItems: 'center', borderRadius: verticalScale(6), width: scale(100), height: verticalScale(40) }}>
                         <Text style={{ color: colors.primary_blue, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(14), }}>
-                            {'\u20B9'}500
+                            {'\u0024'}500
                         </Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => setmoney(1000)} activeOpacity={0.7} style={{ backgroundColor: colors.white, justifyContent: 'center', alignItems: 'center', borderRadius: verticalScale(6), width: scale(100), height: verticalScale(40) }}>
                         <Text style={{ color: colors.primary_blue, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(14), }}>
-                            {'\u20B9'}1000
+                            {'\u0024'}1000
                         </Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => setmoney(2000)} activeOpacity={0.7} style={{ backgroundColor: colors.white, justifyContent: 'center', alignItems: 'center', borderRadius: verticalScale(6), width: scale(100), height: verticalScale(40) }}>
                         <Text style={{ color: colors.primary_blue, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(14), }}>
-                            {'\u20B9'}2000
+                            {'\u0024'}2000
                         </Text>
                     </TouchableOpacity>
                 </View>
 
                 <TouchableOpacity onPress={() => props.navigation.navigate("PaymentOptions", { money: money })} style={{ backgroundColor: colors.primary_blue, width: scale(320), height: verticalScale(40), alignSelf: 'center', borderRadius: verticalScale(6), justifyContent: 'center', alignItems: 'center', marginTop: verticalScale(20) }}>
-                    <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(14) }} >Add {'\u20B9'}{money}</Text>
+                    <Text style={{ color: colors.white, fontFamily: constants.OPENSANS_FONT_SEMI_BOLD, fontSize: scaleFont(14) }} >Add {'\u0024'}{money}</Text>
                 </TouchableOpacity>
 
 
@@ -108,11 +108,11 @@ const AddMoney = (props) => {
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: verticalScale(10) }}>
                         <View style={{ width: scale(140) }}>
                             <Text style={{ color: colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>
-                                {'\u20B9'}500</Text>
+                                {'\u0024'}500</Text>
                         </View>
                         <View style={{ width: scale(140) }}>
                             <Text style={{ color: colors.black, textAlign: 'left', fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>
-                                {'\u20B9'}699
+                                {'\u0024'}699
                             </Text>
                         </View>
                     </View>
@@ -124,11 +124,11 @@ const AddMoney = (props) => {
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', }}>
                         <View style={{ width: scale(140) }}>
                             <Text style={{ color: colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>
-                                {'\u20B9'}1000</Text>
+                                {'\u0024'}1000</Text>
                         </View>
                         <View style={{ width: scale(140) }}>
                             <Text style={{ color: colors.black, textAlign: 'left', fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>
-                                {'\u20B9'}1499
+                                {'\u0024'}1499
                             </Text>
                         </View>
                     </View>
@@ -140,11 +140,11 @@ const AddMoney = (props) => {
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', }}>
                         <View style={{ width: scale(140) }}>
                             <Text style={{ color: colors.black, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>
-                                {'\u20B9'}2000</Text>
+                                {'\u0024'}2000</Text>
                         </View>
                         <View style={{ width: scale(140) }}>
                             <Text style={{ color: colors.black, textAlign: 'left', fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_SEMI_BOLD }}>
-                                {'\u20B9'}3199
+                                {'\u0024'}3199
                             </Text>
                         </View>
                     </View>
