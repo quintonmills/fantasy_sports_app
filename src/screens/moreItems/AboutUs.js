@@ -41,16 +41,16 @@ const AboutUs = (props) => {
                     </View>
 
                     <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, textAlign: "justify" }}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Score Kings offers a unique fantasy sports platform that is tailored to the interests and needs of local sports fans.
+
                     </Text>
 
                     <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Our mobile app features localized content, exclusive insights from hometown experts, and immersive social features that foster a strong sense of community among users.
                     </Text>
 
                     <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), marginBottom: verticalScale(30), textAlign: "justify" }}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </Text>
+                    By partnering with local sports teams, leagues, and media outlets, we provide users with access to one-of-a-kind experiences and rewards that deepen their connection to their hometown sports scene.                    </Text>
                 </ScrollView>
             </View>
 
