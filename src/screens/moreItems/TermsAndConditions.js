@@ -68,6 +68,46 @@ const TermsAndConditions = (props) => {
 
                         d) Attempt to gain unauthorized access to the App or its related systems or networks
                     </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        5. Fantasy Contests
+                        Participation in fantasy contests is subject to our Contest Rules, which are incorporated by reference into these Terms and Conditions.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        6. Payments and Refunds
+                        All payments made through the App are final and non-refundable, unless otherwise required by law.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        7. Intellectual Property
+                        The App and its original content, features, and functionality are owned by Score Kings and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        8. Privacy Policy
+                        Your use of the App is also governed by our Privacy Policy, which is incorporated by reference into these Terms and Conditions.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        9. Disclaimer of Warranties
+                        The App is provided on an "as is" and "as available" basis without any warranties of any kind.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        10. Limitation of Liability
+                        To the fullest extent permitted by applicable law, Score Kings shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        11. Indemnification
+                        You agree to indemnify and hold Score Kings harmless from any claims, losses, damages, liabilities, including attorney's fees, arising out of your use or misuse of the App.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        12. Governing Law
+                        These Terms shall be governed by and construed in accordance with the laws of [Your State], without regard to its conflict of law provisions.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        13. Changes to Terms
+                        We reserve the right to modify these Terms at any time. We will always post the most current version on our App.
+                    </Text>
+                    <Text style={{ color: colors.text_primary, fontSize: scaleFont(14), fontFamily: constants.OPENSANS_FONT_MEDIUM, marginTop: verticalScale(10), textAlign: "justify" }}>
+                        14. Contact Us
+                        If you have any questions about these Terms, please contact us at [Your Contact Information].
+                    </Text>
 
                 </ScrollView>
             </View>
