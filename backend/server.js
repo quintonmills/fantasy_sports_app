@@ -46,3 +46,23 @@ const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
+const stripe = require('stripe')(
+  'pk_test_51SDFWQIiDk4OSwBoIqXDXYoGEWpFhLTvDCDDUe1l2ATIQ8ZtMZcb4hagS11XEvGpY7kKg9nWo8QHStplwYto2RhN00tKBlUjjz'
+);
+
+app.post('/api/create-payment-intent', async (req, res) => {
+  try {
+    const { amount, contestId } = req.body;
+
+    const paymentIntent = await stripe.paymentIntents.create({
+      amount: amount * 100, // Convert to cents
+      currency: 'usd',
+      metadata: { contestId },
+    });
+
+    res.json({ clientSecret: paymentIntent.client_secret });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
