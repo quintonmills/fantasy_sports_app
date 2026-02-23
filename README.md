@@ -1,5 +1,5 @@
 # Welcome to ScoreKings 👋
-
+🔗 [View Live Application](https://fantasy-sports-app-1.vercel.app/)
 ## Get started
 
 1. Install dependencies
